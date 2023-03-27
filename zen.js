@@ -1,0 +1,550 @@
+//Design database for Zen class programme
+
+//User
+
+db.user.insertMany([
+    {
+        name:"varshini",
+        email:"varshini@gmail.com",
+        course:"FSD",
+        type:"WeekDay",
+        batch:"B42WD",
+        codekata:45,
+        placement:"appeared",
+        performance:[
+            {
+                date:01/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:02/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:03/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:04/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:05/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:06/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:07/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:08/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:09/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:10/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:11/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:12/01/2023,
+                attendance:"present",
+                task:"submitted"
+            }
+        ]
+    },
+    {
+        name:"madesh",
+        email:"madesh@gmail.com",
+        course:"FSD",
+        type:"WeekDay",
+        batch:"B42WD",
+        codekata:52,
+        placement:"appeared",
+        performance:[
+            {
+                date:01/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:02/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:03/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:04/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:05/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:06/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:07/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:08/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:09/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:10/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:11/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:12/01/2023,
+                attendance:"present",
+                task:"submitted"
+            }
+        ]
+    },
+    {
+        name:"abinaya",
+        email:"abinaya@gmail.com",
+        course:"FSD",
+        type:"WeekDay",
+        batch:"B42WD",
+        codekata:35,
+        placement:"appeared",
+        performance:[
+            {
+                date:01/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:02/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:03/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:04/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:05/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:06/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:07/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:08/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:09/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:10/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:11/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:12/01/2023,
+                attendance:"present",
+                task:"submitted"
+            }
+        ]
+    },
+    {
+        name:"manju",
+        email:"manju@gmail.com",
+        course:"FSD",
+        type:"WeekDay",
+        batch:"B42WD",
+        codekata:43,
+        placement:"appeared",
+        performance:[
+            {
+                date:01/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:02/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:03/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:04/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:05/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:06/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:07/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:08/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:09/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:10/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:11/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:12/01/2023,
+                attendance:"present",
+                task:"submitted"
+            }
+        ]
+    },
+    {
+        name:"praveen",
+        email:"praveen@gmail.com",
+        course:"FSD",
+        type:"WeekDay",
+        batch:"B42WD",
+        codekata:39,
+        placement:"appeared",
+        performance:[
+            {
+                date:01/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:02/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:03/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:04/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:05/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:06/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:07/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:08/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:09/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:10/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:11/01/2023,
+                attendance:"present",
+                task:"submitted"
+            },
+            {
+                date:12/01/2023,
+                attendance:"present",
+                task:"submitted"
+            }
+        ]
+    }
+
+
+
+
+])
+
+//task and topics
+
+
+db.task.insertMany([
+       
+    {
+        date:"01/01/2023",
+        topic:"Introduction to HTML",
+        task:"Create a web page",
+        month:"oct"
+        
+    },
+    {
+        date:"02/01/2023",
+        topic:"Introduction to JavaScript",
+        task:"Write a blog of Javascript",
+        month:"oct"
+        
+    },
+    {
+        date:"03/01/2023",
+        topic:"Array and function",
+        task:"Do implement all functions",
+        month:"oct"
+      
+        
+    } 
+    ,{
+        date:"04/01/2023",
+        topic:"What is css? ways to use css",
+        task:"Responsive webpage using Css",
+        month:"oct"
+        
+    } 
+    ,{
+        date:"05/01/2023",
+        topic:"DOM Introduction",
+        task:"diff btw window screen and document",
+        month:"oct"
+       
+        
+        
+    }
+    ,{
+        date:"06/01/2023",
+        topic:"Callback function",
+        task:"Callback hell task",
+        month:"oct"
+       
+        
+    }
+    ,{
+        date:"07/01/2023",
+        topic:"Promise",
+        task:"pick any two and complete them with responsive design",
+        month:"oct"
+       
+        
+    }
+    ,{
+        date:"08/01/2023",
+        topic:"Promise fetch - request info & request init",
+        task:"api task",
+        month:"oct"
+        
+    }
+    ,{
+        date:"09/01/2023",
+        topic:"Introduction to React",
+        task:"price cart bootstrap",
+        month:"oct"
+        
+    }
+    ,{
+        date:"10/01/2023",
+        topic:"hooks",
+        task:"student app management system",
+        month:"oct"
+        
+    }
+    ,{
+        date:"11/01/2023",
+        topic:"Context api",
+        task:"Dark and light mode",
+        month:"oct"
+        
+    }
+    ,{
+        date:"12/01/2023",
+        topic:"Crud",
+        task:"crud task",
+        month:"oct"
+        
+    }
+    
+
+])
+
+//company drives
+
+db.company_drives.insertMany([
+  {
+    company: "Zoho",
+    date:01/01/2023
+  },
+  {
+    company: "Infosys",
+    date:02/01/2023
+  },
+  {
+    company: "DXC",
+    date:03/01/2023
+  },
+  {
+    company: "Accenture",
+    date:04/01/2023
+  },
+  {
+    company: "Cognizant",
+    date:05/01/2023
+  },
+  {
+    company_name:"L&T",
+    date:06/01/2023
+  },
+]);
+
+
+//Mentors
+
+db.mentors.insertMany([
+  
+  { 
+    mentor: "Swetha", 
+    modules:"JavaScript and HTML",
+    mentee_count: 150 
+  },
+  { 
+    mentor: "Ragav",
+    modules:"React",
+    mentee_count: 125
+  },
+  { 
+    mentor: "Mahesh",  
+    mentee_count: 400,
+    modules:"Node" 
+  },
+  { 
+    mentor: "Sai",  
+    mentee_count: 300,
+    modules:"MongoDB" 
+  }, 
+  {
+    mentor:"Mohan",
+    mentee_count: 350,
+    modules:"Aws"
+  },
+  {
+    mentor:"Rupan",
+    mentee_count: 260,
+    modules:"DSA algorithm"
+  }
+])
+
+
+// Find all the topics and tasks which are thought in the month of jan
+
+db.task.find({month:"jan"},{topic:1,task:1})
+
+// Find all the company drives which appeared between 01 jan-2020 and 05-oct-2023
+
+db.company_drives.find({date :{$gte : "01/10/2020",$lte : "05/10/2020"}},{company:1})
+
+// Find all the company drives and students who are appeared for the placement.
+
+db.user.find({placement: "appeared"})
+
+// Find the number of problems solved by the user in codekata
+
+db.user.find({},{name:1,codekata:1})
+
+//Find all the mentors with who has the mentee's count more than 15
+
+db.mentors.find({mentee_count:{$gt:15}},{mentor:1})
